@@ -13,7 +13,7 @@
 @font-face {
   font-family: "Nunito";
   font-display: swap;
-  src: url("../fonts/Nunito-Semibold.woff2") format("woff2");
+  src: url("../fonts/Nunito-SemiBold.woff2") format("woff2");
   font-weight: 600;
 }
 @font-face {
@@ -346,7 +346,6 @@ input[type="number"] {
       }
       &:hover {
         span {
-          // color: $white;
           color: $defaultText;
         }
       }
@@ -365,7 +364,6 @@ input[type="number"] {
       font-size: 20px;
       line-height: 1;
       transition: all .3s ease-in-out;
-      // color: $white;
       color: $defaultText;
     }
   }
