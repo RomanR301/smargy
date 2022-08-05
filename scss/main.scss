@@ -890,3 +890,14 @@ input[type="number"] {
     }
   }
 }
+@media (min-width: 1920px) {
+  .footer-image {
+    object-fit: cover;
+    height: 1600px;
+    object-position: top;
+  }
+  .main-screen__image {
+    width: 140%;
+    margin-left: -8%;
+  }
+}
