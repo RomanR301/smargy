@@ -17,34 +17,41 @@
       <a href="de-index.html" class="header-logo">
         <img src="./img/main-logo.svg" alt="smargy logo">
       </a>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
       <div class="navbar">
         <ul class="menu">
           <li class="menu-item has-sub-menu dropdown">
-            <div class="dropdown__trigger">
-              <span>Anwendung</span>
+            <span>Anwendung
               <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M11.9063 16.625C11.7225 16.625 11.5385 16.5548 11.3981 16.4145L4.21064 9.22695C3.92979 8.9461 3.92979 8.49131 4.21064 8.21064C4.49149 7.92997 4.94628 7.92979 5.22695 8.21064L11.9063 14.89L18.5856 8.21064C18.8665 7.92979 19.3213 7.92979 19.602 8.21064C19.8826 8.49149 19.8828 8.94628 19.602 9.22695L12.4145 16.4145C12.2741 16.5548 12.0901 16.625 11.9063 16.625Z"
                   fill="#222222" />
               </svg>
+            </span>
+            <div class="sub-menu-outer">
+              <ul class="sub-menu">
+                <li class="menu-item">
+                  <a href="de-energy-management.html">
+                    Energiemanagement
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="de-zev.html">
+                    ZEV
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="de-electric-car.html">
+                    Elektroautos
+                  </a>
+                </li>
+              </ul>
             </div>
-            <ul class="sub-menu">
-              <li class="menu-item">
-                <a href="de-energy-management.html">
-                  Energiemanagement
-                </a>
-              </li>
-              <li class="menu-item">
-                <a href="de-zev.html">
-                  ZEV
-                </a>
-              </li>
-              <li class="menu-item">
-                <a href="de-electric-car.html">
-                  Elektroautos
-                </a>
-              </li>
-            </ul>
           </li>
           <li class="menu-item">
             <a href="de-pricing.html">Preise</a>
@@ -56,17 +63,18 @@
             <a href="de-contact.html">Kontakt</a>
           </li>
         </ul>
-        <div class="language dropdown">
-          <button class="language__item dropdown__trigger">
+        <div class="language has-sub-menu">
+          <button class="language__trigger">
             <img src="img/icons/ch.svg" alt="Icon of Language" />
-            <span class="language__title"> DE </span>
-            <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M11.9063 16.625C11.7225 16.625 11.5385 16.5548 11.3981 16.4145L4.21064 9.22695C3.92979 8.9461 3.92979 8.49131 4.21064 8.21064C4.49149 7.92997 4.94628 7.92979 5.22695 8.21064L11.9063 14.89L18.5856 8.21064C18.8665 7.92979 19.3213 7.92979 19.602 8.21064C19.8826 8.49149 19.8828 8.94628 19.602 9.22695L12.4145 16.4145C12.2741 16.5548 12.0901 16.625 11.9063 16.625Z"
-                fill="#222222" />
-            </svg>
+            <span class="language__title"> DE 
+              <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M11.9063 16.625C11.7225 16.625 11.5385 16.5548 11.3981 16.4145L4.21064 9.22695C3.92979 8.9461 3.92979 8.49131 4.21064 8.21064C4.49149 7.92997 4.94628 7.92979 5.22695 8.21064L11.9063 14.89L18.5856 8.21064C18.8665 7.92979 19.3213 7.92979 19.602 8.21064C19.8826 8.49149 19.8828 8.94628 19.602 9.22695L12.4145 16.4145C12.2741 16.5548 12.0901 16.625 11.9063 16.625Z"
+                  fill="#222222" />
+              </svg>
+            </span>
           </button>
-          <div class="language__list dropdown__item">
+          <div class="sub-menu-outer">
             <a href="en-index.html" class="language__item">
               <img src="img/icons/en.svg" alt="Icon of Language" />
               <span class="language__title"> EN </span>
@@ -80,7 +88,7 @@
     <section class="main-screen">
       <div class="container">
         <div class="row">
-          <div class="col-lg-4">
+          <div class="col-xl-4 col-lg-5 col-xs-12">
             <h1 class="main-screen__title">
               <span class="main-screen__title-1">Smargy</span>
               <span class="main-screen__title-group">
@@ -93,8 +101,12 @@
               Bewirtschaftung des Energieverbrauchs Ihrer Liegenschaften"</div>
             <a href="de-about.html" class="btn-primary">Über uns</a>
           </div>
-          <div class="col-lg-8">
-            <img class="main-screen__image" src="./img/hero-screen-image.png" alt="smargy-app">
+          <div class="col-xl-8 col-lg-7 col-xs-12">
+            <img class="main-screen__image desktop" src="./img/hero-screen-image.png" alt="smargy-app">
+            <img class="main-screen__image mobile" src="./img/hero-screen-image-mobile.png" alt="smargy-app">
+          </div>
+          <div class="scroll-down">
+            <img src="./img/scroll-down-arrow.svg" alt="scroll-down">
           </div>
         </div>
       </div>
@@ -105,7 +117,7 @@
           Anwendung
         </h2>
         <div class="info-item info-item-1 row">
-          <div class="col-lg-6">
+          <div class="col-md-6 col-xs-12">
             <div class="info-item__text">
               <div class="info-item__description">
                 Energiemanagement. <br>
@@ -114,7 +126,7 @@
               <a href="de-energy-management.html" class="info-item__more">Mehr dazu</a>
             </div>
           </div>
-          <div class="col-lg-6 column-img">
+          <div class="col-md-6 col-xs-12 column-img">
             <img class="info-item__image" src="./img/placeholder-app-screenshot.png" alt="placeholder-app-screenshot">
             <div class="info-item__background">
               <img src="./img/windmill.png" alt="windmill">
@@ -122,7 +134,7 @@
           </div>
         </div>
         <div class="info-item info-item-2 row">
-          <div class="col-lg-6">
+          <div class="col-md-6 col-xs-12">
             <div class="info-item__text">
               <div class="info-item__description">
                 Stromproduzent und Stromkonsument -
@@ -132,7 +144,7 @@
               <a href="de-zev.html" class="info-item__more">Mehr dazu</a>
             </div>
           </div>
-          <div class="col-lg-6 column-img">
+          <div class="col-md-6 col-xs-12 column-img">
             <img class="info-item__image" src="./img/placeholder-app-screenshot.png" alt="placeholder-app-screenshot">
             <div class="info-item__background">
               <img class="info-item__image-background" src="./img/solarpanel.png" alt="solarpanel">
@@ -140,7 +152,7 @@
           </div>
         </div>
         <div class="info-item info-item-3 row">
-          <div class="col-lg-6">
+          <div class="col-md-6 col-xs-12">
             <div class="info-item__text">
               <div class="info-item__description">
                 Eine Ladestation und viele Autos - der smargy Sticker
@@ -148,7 +160,7 @@
               <a href="de-electric-car.html" class="info-item__more">Mehr dazu</a>
             </div>
           </div>
-          <div class="col-lg-6 column-img">
+          <div class="col-md-6 col-xs-12 column-img">
             <img class="info-item__image" src="./img/placeholder-app-screenshot.png" alt="placeholder-app-screenshot">
             <div class="info-item__background">
               <img class="info-item__image-background" src="./img/electrocar.png" alt="electrocar">
@@ -156,7 +168,7 @@
           </div>
         </div>
         <div class="info-item info-item-4 row">
-          <div class="col-lg-6">
+          <div class="col-md-6 col-xs-12">
             <div class="info-item__text">
               <div class="info-item__description">
                 Kompetente Beratung von der manuellen Installation bis zur Cloudlösung
@@ -164,7 +176,7 @@
               <a href="de-about.html" class="info-item__more">Über uns</a>
             </div>
           </div>
-          <div class="col-lg-6 column-img">
+          <div class="col-md-6 col-xs-12 column-img">
             <img class="info-item__image" src="./img/placeholder-app-screenshot.png" alt="placeholder-app-screenshot">
             <div class="info-item__background">
               <img class="info-item__image-background" src="./img/solarpanel-install.png" alt="solarpanel">
@@ -172,6 +184,14 @@
           </div>
         </div>
       </div>
+      <img class="green-circle green-circle-1" src="./img/green-circle.svg" alt="decor element">
+      <img class="green-circle green-circle-2" src="./img/green-circle.svg" alt="decor element">
+      <img class="green-circle green-circle-3" src="./img/green-circle.svg" alt="decor element">
+      <img class="green-circle green-circle-4" src="./img/green-circle.svg" alt="decor element">
+      <img class="green-circle green-circle-5" src="./img/green-circle.svg" alt="decor element">
+      <img class="green-circle green-circle-6" src="./img/green-circle.svg" alt="decor element">
+      <img class="green-circle green-circle-7" src="./img/green-circle.svg" alt="decor element">
+      <img class="green-circle green-circle-8" src="./img/green-circle.svg" alt="decor element">
     </section>
     <section class="details">
       <div class="container">
@@ -180,7 +200,7 @@
           Anwendungen
         </h2>
         <div class="row">
-          <div class="col-lg-4">
+          <div class="col-md-4 col-xs-12">
             <div class="details-item">
               <div class="details-item__icon">
                 <img src="./img/icons/icon-energymanagement.svg" alt="energy management icon">
@@ -189,7 +209,7 @@
               <a href="de-energy-management.html" class="details-item__link btn-primary">Mehr dazu</a>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-md-4 col-xs-12">
             <div class="details-item">
               <div class="details-item__icon">
                 <img src="./img/icons/icon-ZEV.svg" alt="zev ivon">
@@ -198,7 +218,7 @@
               <a href="de-energy-management.html" class="details-item__link btn-primary">Mehr dazu</a>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-md-4 col-xs-12">
             <div class="details-item">
               <div class="details-item__icon">
                 <img src="./img/icons/icon-electrocar.svg" alt="electric car icon">
@@ -218,7 +238,7 @@
           Wir melden uns innerhalb eines Arbeitstages bei Ihnen und freuen uns auf Sie.
         </div>
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-lg-6 col-md-8 col-xs-12">
             <div class="contact-form">
               <form action="">
                 <div class="form-group">
@@ -251,7 +271,36 @@
       </a>
       <div class="footer-menu">
         <div class="footer-menu-top">
-          <a href="#" class="footer-menu__link">Anwendung</a>
+          <div class="menu-item has-sub-menu">
+            <div class="dropdown__trigger">
+              <span>Anwendung
+                <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M11.9063 16.625C11.7225 16.625 11.5385 16.5548 11.3981 16.4145L4.21064 9.22695C3.92979 8.9461 3.92979 8.49131 4.21064 8.21064C4.49149 7.92997 4.94628 7.92979 5.22695 8.21064L11.9063 14.89L18.5856 8.21064C18.8665 7.92979 19.3213 7.92979 19.602 8.21064C19.8826 8.49149 19.8828 8.94628 19.602 9.22695L12.4145 16.4145C12.2741 16.5548 12.0901 16.625 11.9063 16.625Z"
+                    fill="#222222" />
+                </svg>
+              </span>
+            </div>
+            <div class="sub-menu-outer">
+              <ul class="sub-menu">
+                <li class="menu-item">
+                  <a href="de-energy-management.html">
+                    Energiemanagement
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="de-zev.html">
+                    ZEV
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="de-electric-car.html">
+                    Elektroautos
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
           <a href="#" class="footer-menu__link">Preise</a>
           <a href="#" class="footer-menu__link">Über uns</a>
           <a href="#" class="footer-menu__link">Kontakt</a>
@@ -269,7 +318,7 @@
     </div>
   </footer>
 </body>
-<!-- <script src="./js/jquery.min.js"></script> -->
+<script src="./js/jquery.min.js"></script>
 <script src="./js/main.js"></script>
 
 </html>
