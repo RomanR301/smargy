@@ -1162,6 +1162,10 @@ main {
   padding-top: 200px;
 }
 
+.info .green-circle {
+  width: 222px;
+}
+
 .info .green-circle-1 {
   left: -111px;
   top: 280px;
@@ -1595,6 +1599,11 @@ main {
   cursor: pointer;
 }
 
+.scroll-down img {
+  width: 222px;
+  height: 222px;
+}
+
 .hamburger {
   display: none;
 }
@@ -1761,13 +1770,14 @@ main {
   .scroll-down {
     left: 50%;
     right: unset;
-    bottom: -30px;
+    bottom: 0;
     -webkit-transform: translate(-50%, 0);
         -ms-transform: translate(-50%, 0);
             transform: translate(-50%, 0);
   }
   .scroll-down img {
     width: 110px;
+    height: 110px;
   }
   .navbar {
     -webkit-box-orient: vertical;
@@ -2080,7 +2090,7 @@ main {
   }
   .main-screen__image {
     width: 70%;
-    margin: 15px auto;
+    margin: auto;
   }
   .info .green-circle {
     display: none;

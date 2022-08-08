@@ -605,6 +605,7 @@ main {
   position: relative;
   padding-top: 200px;
   .green-circle {
+    width: 222px;
     &-1 {
       left: -111px;
       top: 280px;
@@ -941,7 +942,11 @@ main {
   right: calc(55% - 111px);
   bottom: 0;
   display: flex;
-  cursor: pointer;
+  cursor: pointer; 
+  img {
+    width: 222px;
+    height: 222px;
+  }
 }
 .hamburger {
   display: none;
@@ -1093,10 +1098,11 @@ main {
   .scroll-down {
     left: 50%;
     right: unset;
-    bottom: -30px;
+    bottom: 0;
     transform: translate(-50%, 0);
     img {
       width: 110px;
+      height: 110px;
     }
   }
   .navbar {
@@ -1366,7 +1372,7 @@ main {
     }
     &__image {
       width: 70%;
-      margin: 15px auto;
+      margin: auto;
     }
   }
   .info {
