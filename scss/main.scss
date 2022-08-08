@@ -407,6 +407,9 @@ main {
   display: flex;
   align-items: center;
 }
+.white-circle {
+  display: none;
+}
 .menu {
   display: flex;
   align-items: center;
@@ -1103,6 +1106,25 @@ main {
     img {
       width: 110px;
       height: 110px;
+    }
+  }
+  .white-circle {
+    display: block;
+    position: absolute;
+    &-1 {
+      width: 200px;
+      top: 26%;
+      right: -100px;
+    }
+    &-2 {
+      width: 160px;
+      bottom: 13%;
+      right: 30px;
+    }
+    &-3 {
+      width: 100px;
+      bottom: 3%;
+      left: -50px;
     }
   }
   .navbar {
