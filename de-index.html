@@ -12,7 +12,7 @@
 </head>
 
 <body>
-  <header class="header home-header">
+  <header class="header home-header unique-header">
     <div class="container">
       <a href="de-index.html" class="header-logo">
         <img src="./img/main-logo.svg" alt="smargy logo">
@@ -305,7 +305,7 @@
             </div>
           </div>
           <a href="#" class="footer-menu__link">Preise</a>
-          <a href="#" class="footer-menu__link">Über uns</a>
+          <a href="de-about.html" class="footer-menu__link">Über uns</a>
           <a href="#" class="footer-menu__link">Kontakt</a>
         </div>
         <div class="footer-menu-bottom">
@@ -323,5 +323,21 @@
 </body>
 <script src="./js/jquery.min.js"></script>
 <script src="./js/main.js"></script>
+<script>
+    let scrollpos = window.scrollY
+    const header = document.querySelector(".unique-header")
+    const header_height = 10;
+
+    const add_class_on_scroll = () => header.classList.remove("home-header")
+    const remove_class_on_scroll = () => header.classList.add("home-header")
+
+    window.addEventListener('scroll', function() { 
+      scrollpos = window.scrollY;
+
+      if (scrollpos >= header_height) { add_class_on_scroll() }
+      else { remove_class_on_scroll() }
+    })
+
+</script>
 
 </html>
