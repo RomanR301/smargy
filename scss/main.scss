@@ -1078,10 +1078,9 @@ main {
     transform: translate(0, -50%);
     height: 530px;
     right: 0;
-    object-fit: cover;
     img {
       height: 100%;
-      width: 100%;
+      object-fit: cover;
     }
   }
   h2 {
