@@ -3468,6 +3468,15 @@ main {
   .other-page-footer .footer-logo {
     margin-bottom: 60px;
   }
+  .electric-car {
+    margin: 60px 0 30px 0;
+  }
+  .electric-car .section-title {
+    margin-bottom: 40px;
+  }
+  .electric-car .green-circle {
+    display: none;
+  }
 }
 
 @media (max-width: 767px) {
@@ -3719,10 +3728,6 @@ main {
   .other-page.error-page .error-page-image {
     top: 72%;
   }
-  .thankyou-page {
-    padding: 100px 0;
-    height: auto;
-  }
   .thankyou-page .thankyou-page-image {
     width: 100px;
   }
@@ -3732,6 +3737,9 @@ main {
 }
 
 @media (max-width: 576px) {
+  .elipse-background {
+    height: 400px;
+  }
   .main-screen__image {
     width: 100%;
   }

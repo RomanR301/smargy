@@ -2544,6 +2544,15 @@ main {
       margin-bottom: 60px;
     }
   }
+  .electric-car {
+    margin: 60px 0 30px 0;
+    .section-title {
+      margin-bottom: 40px;
+    }
+    .green-circle {
+      display: none;
+    }
+  }
 }
 @media (max-width: 767px) {
   .home-heading {
@@ -2832,8 +2841,6 @@ main {
     }
   }
   .thankyou-page {
-    padding: 100px 0;
-    height: auto;
     .thankyou-page-image {
       width: 100px;
     }
@@ -2843,6 +2850,9 @@ main {
   }
 }
 @media (max-width: 576px) {
+  .elipse-background {
+    height: 400px;
+  }
   .main-screen__image {
     width: 100%;
   }
