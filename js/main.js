@@ -10,7 +10,7 @@ $( document ).ready(function() {
         $(this).toggleClass('menu-open')
       })
       $(document).on("click", function(event){
-        var $trigger = $(".has-sub-menu");
+        let $trigger = $(".has-sub-menu");
         if($trigger !== event.target && !$trigger.has(event.target).length){
             $(".has-sub-menu").removeClass("menu-open");
         }            
@@ -27,4 +27,16 @@ $( document ).ready(function() {
       $('.navbar').toggleClass('active');
       $('.hamburger').toggleClass('active');
     })
+
+
+  let video = document.querySelector(".video__item");
+  let videoPlayButton = document.querySelector(".video__play");
+  let videoPreview = document.querySelector(".video__preview");
+  videoPlayButton === null || videoPlayButton === void 0
+    ? void 0
+    : videoPlayButton.addEventListener("click", function () {
+        video.style.display = "block";
+        videoPlayButton.style.display = "none";
+      }); // Modal
+
 });
