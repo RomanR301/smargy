@@ -39,4 +39,20 @@ $( document ).ready(function() {
         videoPlayButton.style.display = "none";
       }); // Modal
 
+
+  var switchLabel = document.querySelectorAll(".switch__label");
+  var cardsList = document.querySelector(".pricing-cards-list");
+  switchLabel === null || switchLabel === void 0
+    ? void 0
+    : switchLabel.forEach(function (e) {
+        e.addEventListener("click", function () {
+          if (e.querySelector("input").checked) {
+            e.classList.add("js-toggle");
+            cardsList.classList.add('yearly');
+          } else {
+            e.classList.remove("js-toggle");
+            cardsList.classList.remove('yearly');
+          }
+        });
+      });
 });
