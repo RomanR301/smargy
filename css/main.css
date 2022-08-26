@@ -3084,10 +3084,10 @@ main {
 
 @media (max-height: 780px) {
   .main-screen__image {
-    height: 400px;
+    height: 500px;
     -o-object-fit: contain;
        object-fit: contain;
-    margin-left: -12%;
+    margin-left: -13%;
   }
   .main-screen__title span {
     font-size: 66px;
