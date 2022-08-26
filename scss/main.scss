@@ -2038,6 +2038,7 @@ main {
       top: -50px;
       left: 50%;
       transform: translate(-50%, 0);
+      z-index: -1;
     }
     &-top {
       padding: 4px 10px;
@@ -2141,20 +2142,21 @@ main {
 
 
 
-@media (max-height: 700px) {
+@media (max-height: 780px) {
   .main-screen__image {
-    height: 460px;
+    height: 400px;
     object-fit: contain;
+    margin-left: -12%;
   }
   .main-screen__title span {
     font-size: 66px;
     line-height: 66px;
   }
   .scroll-down {
-    right: calc(55% - 70px);
+    right: calc(55% - 60px);
     img {
-      width: 140px;
-      height: 140px;
+      width: 120px;
+      height: 120px;
     }
   }
 }
@@ -3304,7 +3306,6 @@ main {
     }
   }
 }
-
 @media (max-width: 576px) {
   .elipse-background {
     height: 400px;
