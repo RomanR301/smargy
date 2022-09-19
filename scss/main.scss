@@ -2138,6 +2138,17 @@ main {
       }
     }
   }
+  .agb-list {
+    li {
+      padding-left: 40px;
+      &:before {
+        transform: none;
+        top: 4px;
+        font-size: 24px;
+        font-weight: 700;
+      }
+    }
+  }
 }
 
 
@@ -2357,14 +2368,14 @@ main {
   .text-page {
     margin: 104px 0 40px 0;
     h1 {
-      font-size: 40px;
+      font-size: 36px;
       margin-bottom: 40px;
     }
     h2 {
-      font-size: 32px;
+      font-size: 26px;
     }
     h3 {
-      font-size: 26px;
+      font-size: 20px;
     }
     h2, h3 {
       margin: 24px 0 12px 0;
@@ -2375,6 +2386,14 @@ main {
     }
     p {
       margin-bottom: 16px;
+    }
+    .agb-list {
+      li {
+        padding-left: 36px;
+        &:before {
+          top: 0;
+        }
+      }
     }
   }
   .section-title {

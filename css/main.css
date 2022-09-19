@@ -3082,6 +3082,18 @@ main {
           transform: translate(0, -50%);
 }
 
+.text-page .agb-list li {
+  padding-left: 40px;
+}
+
+.text-page .agb-list li:before {
+  -webkit-transform: none;
+          transform: none;
+  top: 4px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
 @media (max-height: 780px) {
   .main-screen__image {
     height: 500px;
@@ -3282,14 +3294,14 @@ main {
     margin: 104px 0 40px 0;
   }
   .text-page h1 {
-    font-size: 40px;
+    font-size: 36px;
     margin-bottom: 40px;
   }
   .text-page h2 {
-    font-size: 32px;
+    font-size: 26px;
   }
   .text-page h3 {
-    font-size: 26px;
+    font-size: 20px;
   }
   .text-page h2, .text-page h3 {
     margin: 24px 0 12px 0;
@@ -3300,6 +3312,12 @@ main {
   }
   .text-page p {
     margin-bottom: 16px;
+  }
+  .text-page .agb-list li {
+    padding-left: 36px;
+  }
+  .text-page .agb-list li:before {
+    top: 0;
   }
   .section-title {
     font-size: 36px;
