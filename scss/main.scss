@@ -673,6 +673,9 @@ main {
       .info-item__background {
         left: -140px;
       }
+      .info-item__image {
+        margin-left: -100px;
+      }
     }
     &__background {
       background-color: #e0e0e0;
@@ -694,7 +697,7 @@ main {
       margin-bottom: 24px;
     }
     &__image {
-      width: 100%;
+      width: 120%;
       z-index: 2;
       &-background {
         position: absolute;
@@ -2268,6 +2271,9 @@ main {
   }
 }
 @media (max-width: 1200px) {
+  .info-item:nth-child(odd) .info-item__image {
+    margin: 0;
+  }
   .team {
     margin-bottom: 120px;
     .container {

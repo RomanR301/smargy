@@ -1245,6 +1245,10 @@ main {
   left: -140px;
 }
 
+.info-item:nth-child(odd) .info-item__image {
+  margin-left: -100px;
+}
+
 .info-item__background {
   background-color: #e0e0e0;
   border-radius: 24px;
@@ -1268,7 +1272,7 @@ main {
 }
 
 .info-item__image {
-  width: 100%;
+  width: 120%;
   z-index: 2;
 }
 
@@ -3202,6 +3206,9 @@ main {
 }
 
 @media (max-width: 1200px) {
+  .info-item:nth-child(odd) .info-item__image {
+    margin: 0;
+  }
   .team {
     margin-bottom: 120px;
   }
