@@ -103,27 +103,76 @@
     </div>
   </header>
   <main>
-    <section class="other-page thankyou-page">
-      <img src="./img/white-circle.png" class="white-circle white-circle-1">
-      <img src="./img/white-circle.png" class="white-circle white-circle-2">
-      <img src="./img/white-circle.png" class="white-circle white-circle-3">
+    <img class="elipse-background pv-storm-elipse" src="./img/elipse-background.svg" alt="elipse-background">
+    <section class="intro">
+      <img src="./img/white-circle.png" alt="white circle" class="white-circle">
       <div class="container">
-        <div class="other-page-box">
-          <img class="thankyou-page-image" src="./img/thankyou-image.svg" alt="404 image">
-          <h1 class="other-page__title">Thank you!</h1>
-          <div class="other-page__subtitle">Your information was sent successfully!
-            We will contact you within 24 hours!
+        <div class="row">
+          <div class="col-md-10 col-xs-12">
+            <div class="intro-heading">
+              <h1>PV Storm</h1>
+              <p>Photovoltaik-Strom macht Grundeigentümer unabhängig vom Strompreis. Egal, wie teuer Strom in der Zukunft sein wird, der Strom vom eigenen Dach kostet immer das Gleiche. Man bekommt ihn mit jeder Sonnenstunde gratis vom Dach und verbraucht ihn entweder direkt, oder speist überflüssigen Strom ins Stromnetz ein. Dafür gibt es dann eine Einspeisevergütung. Dank ZEV wird man somit selbst zum Stromproduzenten, indem der produzierte Solarstrom von den einzelnen Wohnparteien verbraucht werden kann. Smargy ist auf die Verrechnung und Abrechnung von PV Strom in Mehrfamilienhäusern spezialisiert.  </p>
+            </div>
+            <div class="gif-animation">
+              <img src="./img/pv-storm.png" alt="zev animation">
+            </div>
           </div>
-          <a href="de-index.html" class="btn-primary">Go to Home Page</a>
         </div>
       </div>
     </section>
+    <section class="management pv-storm">
+        <img class="green-circle green-circle-1" src="./img/green-circle.png" alt="decor element">
+        <img class="green-circle green-circle-2" src="./img/green-circle.png" alt="decor element">
+        <img class="green-circle green-circle-3" src="./img/green-circle.png" alt="decor element">
+        <img class="green-circle green-circle-4" src="./img/green-circle.png" alt="decor element">
+        <img class="green-circle green-circle-5" src="./img/green-circle.png" alt="decor element">
+        <div class="container">
+          <h2 class="section-title">Benutzer und deren Vorteile</h2>
+          <div class="management-list">
+            <div class="row management-list-wrapper">
+              <div class="col-md-10 col-xs-12">
+                <div class="management-item">
+                  <div class="row">
+                    <div class="col-md-4 col-xs-12">
+                      <img src="./img/icons/icon-valuation.svg" alt="image description">
+                    </div>
+                    <div class="col-md-7 col-xs-12">
+                      <h4>Eigentümer</h4>
+                      <p>PV Strom kann separat verrechnet und verteilt werden 
+                        </p>
+                        <p>Dank dem smargy PV-Zähler ist es möglich, einzelne Wohnungen oder Häuser bei der Abrechnung aufzuteilen. Anhand der genauen Daten des regulären Stromverbrauchs wird auch der PV Strom korrekt berechnet. Mit Smargy können Sie zwischen mehreren Abrechnungsarten wählen. Sie sind frei den PV Strom gemäss Verbrauch zu verrechnen oder ihn gleichmässig unter den Verbrauchern zu verteilen. </p>
+                    </div>
+                  </div>
+                </div> 
+                <div class="pv-storm-illustration">
+                    <div class="pv-storm-illustration-title">
+                      <span>Gleichmässige Verteilung</span>
+                      <span>Verteilung Gemäss Verbrauch</span>
+                    </div>
+                    <img src="./img/pv-storm-illustration.png" alt="">
+                </div>
+                <div class="management-item">
+                  <div class="row">
+                    <div class="col-md-4 col-xs-12">
+                      <img src="./img/icons/icon-drop.svg" alt="image description">
+                    </div>
+                    <div class="col-md-7 col-xs-12">
+                      <h4>Verbraucher</h4>
+                      <p>Wer seinen Stromverbrauch umweltschonend verwaltet, wird belohnt. Bei Sonnenschein oder starkem Tageslicht wird mehr Solarenergie von den Panels produziert. Somit wird mehr Verbrauch mit dem günstigen und nachhaltigem PV-Strom abgedeckt. Mit smargy kann der Nutzer seinen Stromverbrauch genau beobachten und somit steuern. </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
   </main>
-  <footer class="footer other-page-footer">
-    <img class="footer-image" src="./img/footer.jpg" alt="footer-image">
+  <footer class="footer">
+    <img class="footer-image" src="./img/footer.jpg" alt="footer-image" />
     <div class="container">
       <a href="de-index.html" class="footer-logo">
-        <img class="white-logo" src="./img/main-logo-footer-white.svg" alt="smargy logo">
+        <img src="./img/main-logo-footer.svg" alt="smargy logo" />
       </a>
       <div class="footer-menu">
         <div class="footer-menu-top">
@@ -133,26 +182,21 @@
                 <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M11.9063 16.625C11.7225 16.625 11.5385 16.5548 11.3981 16.4145L4.21064 9.22695C3.92979 8.9461 3.92979 8.49131 4.21064 8.21064C4.49149 7.92997 4.94628 7.92979 5.22695 8.21064L11.9063 14.89L18.5856 8.21064C18.8665 7.92979 19.3213 7.92979 19.602 8.21064C19.8826 8.49149 19.8828 8.94628 19.602 9.22695L12.4145 16.4145C12.2741 16.5548 12.0901 16.625 11.9063 16.625Z"
-                    fill="#222222" />
+                    fill="#222222"
+                  />
                 </svg>
               </span>
             </div>
             <div class="sub-menu-outer">
               <ul class="sub-menu">
                 <li class="menu-item">
-                  <a href="de-energy-management.html">
-                    Energiemanagement
-                  </a>
+                  <a href="de-energy-management.html"> Energiemanagement </a>
                 </li>
                 <li class="menu-item">
-                  <a href="de-zev.html">
-                    ZEV
-                  </a>
+                  <a href="de-zev.html"> ZEV </a>
                 </li>
                 <li class="menu-item">
-                  <a href="de-electric-car.html">
-                    Elektroautos
-                  </a>
+                  <a href="de-electric-car.html"> Elektroautos </a>
                 </li>
               </ul>
             </div>
@@ -169,7 +213,7 @@
         </div>
       </div>
       <div class="footer-partner">
-        <img src="./img/swiss-made-software.svg" alt="swiss made software logo">
+        <img src="./img/swiss-made-software.svg" alt="swiss made software logo"/>
       </div>
     </div>
   </footer>
