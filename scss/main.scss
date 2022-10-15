@@ -1018,6 +1018,14 @@ main {
       max-width: 800px;
       margin: auto;
     }
+    &-below {
+      opacity: 0.8;
+      font-size: 20px;
+      line-height: 32px;
+      text-align: center;
+      max-width: 800px;
+      margin: 40px auto auto auto;
+    }
   }
   .white-circle {
     display: block;
@@ -1349,6 +1357,7 @@ main {
         height: 100%;
         object-fit: cover;
         border-radius: 12px;
+        filter: grayscale(100%);
       }
     }
     &__title {
@@ -1547,6 +1556,9 @@ main {
     border-radius: 12px;
     padding: 32px;
     height: 100%;
+    strong {
+      font-weight: 600;
+    }
   }
   &__icon {
     margin-bottom: 16px;
@@ -2887,6 +2899,12 @@ main {
         font-size: 16px;
         line-height: 24px;
       }
+      &-below {
+        p {
+          font-size: 16px;
+          line-height: 24px;
+        }
+      }
     }
   }
   .about-partner:before,
@@ -3297,8 +3315,7 @@ main {
   .team {
     &-item {
       &__image {
-        height: auto;
-        max-height: 250px;
+        height: 250px;
         margin-bottom: 16px;
         &:before {
           right: 5px;
@@ -3499,9 +3516,6 @@ main {
       }
     }
   }
-  .pv-storm-elipse {
-    height: 700px;
-  }
   .gif-animation {
     width: 100%;
   }
@@ -3553,5 +3567,10 @@ main {
     .has-sub-menu {
       margin: 0 0 30px 0;
     }
+  }
+}
+@media (max-width: 460px) {
+  .team-item__image {
+    height: 150px;
   }
 }
