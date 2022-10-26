@@ -1562,13 +1562,17 @@ main {
   }
   &__icon {
     margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    img {
+      margin-right: 16px;
+    }
   }
   &__title {
     font-family: "Nunito";
     font-weight: 700;
     font-size: 18px;
     line-height: 30px;
-    margin-bottom: 16px;
   }
   &__description {
     color: #555555;
@@ -1625,23 +1629,6 @@ main {
       position: absolute;
       left: 0;
       top: 0;
-    }
-  }
-  .card {
-    &-item {
-      // display: flex;
-      // flex-wrap: wrap;
-      // align-items: flex-start;
-    }
-    &__icon {
-      display: flex;
-      align-items: center;
-      img {
-        margin-right: 16px;
-      }
-    }
-    &__title {
-      margin-bottom: 0;
     }
   }
 }
@@ -1946,7 +1933,13 @@ main {
   }
 }
 .pricing {
-  margin: 100px 0 200px 0;
+  margin: 80px 0 200px 0;
+  h2 {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0 80px 0;
+  }
   &-intro {
     margin-top: 184px;
     h1 {
@@ -1959,6 +1952,7 @@ main {
       font-weight: 900;
     }
     &__block {
+      height: 100%;
       padding: 32px;
       background: #FFFFFF;
       box-shadow: 0px 0px 46px -15px rgba(103, 103, 103, 0.27);
@@ -2050,7 +2044,7 @@ main {
     padding: 36px;
     box-shadow: 0px 3.78483px 94.6207px rgba(0, 0, 0, 0.25);
     border-radius: 24px;
-    height: 560px;
+    height: 600px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -2391,6 +2385,9 @@ main {
   }
 }
 @media (max-width: 1200px) {
+  .pricing-card {
+    height: 620px;
+  }
   .header-logo {
     width: 150px;
   }
@@ -3118,7 +3115,7 @@ main {
     margin-top: 60px;
     &-card {
       padding: 20px;
-      height: 620px;
+      height: 700px;
       &:nth-child(1) {
         padding-right: 46px;
       }
@@ -3146,6 +3143,11 @@ main {
   }
 }
 @media (max-width: 767px) {
+  .pricing {
+    h2 {
+      margin: 0 0 30px 0;
+    }
+  }
   .pv-storm {
     padding: 60px 0;
     .management-list{
