@@ -1692,6 +1692,60 @@ main {
   top: 300px;
 }
 
+.partners-illustration {
+  padding-bottom: 140px;
+  position: relative;
+}
+
+.partners-illustration-item {
+  display: block;
+  -webkit-box-shadow: 0px 0px 70px 2px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 0px 70px 2px rgba(0, 0, 0, 0.05);
+  position: absolute;
+}
+
+.partners-illustration-item img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.partners-illustration-img {
+  width: 585px;
+}
+
+.partners-illustration-img-mob {
+  display: none;
+}
+
+.partners-illustration-codeto {
+  width: 118px;
+  left: 610px;
+  top: 95px;
+}
+
+.partners-illustration-baumann {
+  left: 610px;
+  top: 255px;
+  width: 251px;
+}
+
+.partners-illustration-loxone {
+  display: block;
+  position: absolute;
+  width: 260px;
+  left: 89px;
+  bottom: 59px;
+}
+
+.partners-illustration-loxone img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
 .about-partner {
   position: relative;
   z-index: 2;
@@ -1830,6 +1884,7 @@ main {
 
 .steps {
   padding: 100px 0;
+  margin-bottom: 100px;
   position: relative;
 }
 
@@ -3471,6 +3526,27 @@ main {
 }
 
 @media (max-width: 992px) {
+  .partners-illustration {
+    padding-bottom: 70px;
+  }
+  .partners-illustration-img {
+    width: 450px;
+  }
+  .partners-illustration-codeto {
+    width: 85px;
+    left: 480px;
+    top: 75px;
+  }
+  .partners-illustration-baumann {
+    left: 480px;
+    top: 196px;
+    width: 190px;
+  }
+  .partners-illustration-loxone {
+    width: 200px;
+    left: 68px;
+    bottom: 10px;
+  }
   .pv-storm:before {
     width: calc(100% - 30px);
   }
@@ -4128,6 +4204,38 @@ main {
 }
 
 @media (max-width: 767px) {
+  .partners-illustration {
+    padding: 110px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .partners-illustration-img {
+    display: none;
+  }
+  .partners-illustration-img-mob {
+    display: block;
+    width: 250px;
+  }
+  .partners-illustration-codeto {
+    width: 70px;
+    top: 23px;
+    left: calc(50% - 103px);
+  }
+  .partners-illustration-baumann {
+    width: 140px;
+    top: 34px;
+    left: calc(50% - 0px);
+  }
+  .partners-illustration-loxone {
+    bottom: 30px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
   .pricing h2 {
     margin: 0 0 30px 0;
   }
