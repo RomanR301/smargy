@@ -1627,6 +1627,23 @@ main {
       top: 0;
     }
   }
+  .card {
+    &-item {
+      // display: flex;
+      // flex-wrap: wrap;
+      // align-items: flex-start;
+    }
+    &__icon {
+      display: flex;
+      align-items: center;
+      img {
+        margin-right: 16px;
+      }
+    }
+    &__title {
+      margin-bottom: 0;
+    }
+  }
 }
 .zev-benefits {
   margin: 0 0 130px 0;

@@ -2446,6 +2446,23 @@ main {
   top: 0;
 }
 
+.zev .card__icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.zev .card__icon img {
+  margin-right: 16px;
+}
+
+.zev .card__title {
+  margin-bottom: 0;
+}
+
 .zev-benefits {
   margin: 0 0 130px 0;
   position: relative;
