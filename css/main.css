@@ -2752,6 +2752,7 @@ main {
 .contact-item__description {
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
+  text-align: center;
 }
 
 .contact a.contact-item {
